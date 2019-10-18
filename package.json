@@ -1,0 +1,20 @@
+{
+  "name": "imani",
+  "version": "1.0.0",
+  "description": "Ecommence page",
+  "main": "source/server/index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "author": "Kevin Fernandez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "typescript": "^3.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
