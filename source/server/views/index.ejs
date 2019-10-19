@@ -1,15 +1,58 @@
 <%- include('templates/header') -%>
 <%- include('templates/Navigation')-%>
 <!-- this is the home page from here one can get to blog section or the online store -->
+<div class="jumbotron text-center">
+
+<h1> Imani Handemades </h1>
+ <p class="lead"> Text to de pruebla para poner frases </p>
 
 
-<h1> Home Page </h1>
-
-
+</div>
 <!--  links to store or blog -->
 
 
-<a href='./store'> Imani store </a>
-<a href='./blog'> Imani blog </a>
+<ul class="nav d-flex justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link" href='./store'>Go to Imani store </a>
+  </li>
+   <p> \/ </p>
+  <li class="nav-link">
+     <a class="nav-item" href='./blog'>Go to Imani blog </a>
+  </li>
+</ul>
+
+ <div class="d-flex justify-content-around flex-wrap my-4">
+      <article >
+         <div class="card border-0" style="width: 20rem;">
+        <img class="card-img-top rounded-circle" src="img/DenissaOsorio.jpg" alt="Card image cap">
+        <div class="card-block text-center">
+            <h4 class="card-title ">Denissa Osorio</h4>
+            <p class="card-text ">Denissa Osorio is a young enthurpenue looking to communicate love thruw her jewerly
+                she also the designer of this page and business artis.</p>
+            <div class="d-flex justify-content-center mb-3">                
+              <a href="#" class="btn btn-primary mr-2">more art</a>
+              <a href="#" class="btn btn-primary">other talents</a>
+            </div>
+          </div>
+         </div>
+     </article>
+     <article >
+         <div class="card border-0" style="width: 20rem;">
+        <img class="card-img-top rounded-circle" src="img/DenissaOsorio.jpg" alt="Card image cap">
+        <div class="card-block text-center">
+            <h4 class="card-title ">Denissa Osorio</h4>
+            <p class="card-text ">Denissa Osorio is a young enthurpenue looking to communicate love thruw her jewerly
+                she also the designer of this page and business artis.</p>
+            <div class="d-flex justify-content-center mb-3">                
+              <a href="#" class="btn btn-primary mr-2">more art</a>
+              <a href="#" class="btn btn-primary">other talents</a>
+            </div>
+          </div>
+         </div>
+     </article>
+ </div>
+
+ <%- include('about.ejs') -%>
+   
 
 <%- include('templates/footer') -%>

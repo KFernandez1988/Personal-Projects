@@ -9,6 +9,8 @@ const routes = require('./routes');
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, './views'));
 
+app.use('/css', express.static(__dirname + '/node_modules/bootstrap/'));
+app.use(express.static('static'));
 app.use('/', routes());
 
 
